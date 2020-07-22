@@ -13,9 +13,9 @@
         <div class="row">
             <div class="lower__txt col s3 -custom-col">
                 <ul class="header__txt--head">
-                    <li><a href="http://localhost/ristr8to/about/roast8ry">Roast8ry</a></li>
-                    <li><a href="http://localhost/ristr8to/about/baristas">Baristas</a></li>
-                    <li><a href="http://localhost/ristr8to/about/roasters">Roasters</a></li>
+                    <li><a href="/ristr8to/about/roast8ry">Roast8ry</a></li>
+                    <li><a href="/ristr8to/about/baristas">Baristas</a></li>
+                    <li><a href="/ristr8to/about/roasters">Roasters</a></li>
                 </ul>
             </div>
         </div>

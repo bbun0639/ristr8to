@@ -135,13 +135,13 @@
         </div>
     </div>
     
-        <!-- head WORLD CHAMPIONSHIPS -->
-        <div class="section__main__opentxt center">
+    <!-- head WORLD CHAMPIONSHIPS -->
+    <div class="section__main__opentxt center">
         <div class="-header-text">
             <h1 class="bold no__margin--bottom"></h1>
         </div>
     </div>
-    <!-- END head text -->
+<!-- END head text -->
 </div>
 <!-- Content END -->
 
