@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body, html{
+  height: 100%;
+}
+
+h3{
+  font-size: 1.4em;
+  color: #4dd0e1;
+  font-weight: 500;
+  margin-top: 0;
+}
+h4{
+  font-size: 1.2em;
+  color: #666;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.page__header{
+  margin-top: 2em;
+}
+.modal{
+  width: 650px;
+}
+.input__nomargintop .input-field{
+  margin: 0;
+}
+.input__nomargintop .input__delete{
+  margin-top: 1em;
+}
+span.remark{
+  font-size: .8em;
+  color: #555;
+}
+span.promo{
+  font-size: .8em;
+  color: #F00;
+}
