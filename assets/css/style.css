@@ -61,6 +61,9 @@ a:hover{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .brand-logo.logo-top {
+        margin-left: 20px;
+    }
 }
 @media (min-width: 1200px) {
     .col-lg-15 {
@@ -75,7 +78,7 @@ a:hover{
 .parallax-container {
     height: 80%;
     margin-top: 64px;
-    height: 800px;
+    height: 400px;
 }
 .parallax-container.parallax__imgheader {
     margin-top: 0;
@@ -94,7 +97,7 @@ a:hover{
     /*border-right: 6px solid #FFF;*/
     display: block;
     vertical-align: middle;
-    margin-top: 12em;
+    margin-top: 8em;
     padding: 0;
     /* padding-right: 1.4em; */
 }
@@ -137,7 +140,7 @@ nav.nav__top{
 }
 .nav__center{
     margin: 0 auto;
-    width: 760px;
+    width: 960px;
 }
 .nav__center li a{
     padding: 0 1.0em;
@@ -218,9 +221,6 @@ nav i.right{
 }
 .brand-logo {
     margin:6px 0 0 0;
-}
-.brand-logo.logo-top {
-    margin-left: 20px;
 }
 
 /* Nav2 */
@@ -600,7 +600,7 @@ footer.page-footer  .footer__contact img {
 /* Main Banner END */
 
 .section__main__opentxt{
-    margin: 6em 0 4em;
+    /* margin: 6em 0 4em; */
 }
 
 /* Main sub banner */
@@ -980,22 +980,22 @@ footer.page-footer  .footer__contact img {
 .locations__branch .col.col__branch1:hover{
     background: url("../images/location/hover1.png") no-repeat;
     background-position: center 75%;
-    background-size: 150px;
+    background-size: 100px;
 }
 .locations__branch .col.col__branch2:hover{
     background: url("../images/location/hover2.png") no-repeat;
     background-position: center 75%;
-    background-size: 120px;
+    background-size: 100px;
 }
 .locations__branch .col.col__branch3:hover{
     background: url("../images/location/hover3.png") no-repeat;
     background-position: center 75%;
-    background-size: 150px;
+    background-size: 100px;
 }
 .locations__branch .col.col__branch4:hover{
     background: url("../images/location/hover4.png") no-repeat;
     background-position: center 75%;
-    background-size: 120px;
+    background-size: 100px;
 }
 .locations__branch a{
     width: 100%;
@@ -1226,9 +1226,6 @@ a.ico_twitter:hover{
 /* Locations END */
 
 /* About */
-.session__about{
-
-}
 .session__about h2{
     text-transform: uppercase;
     font-family: "Oswald";
@@ -1264,7 +1261,12 @@ a.ico_twitter:hover{
     margin-right: 2em;
 }
 .about__history img{
-    max-width: 100%;
+    width: 100%;
+}
+.about__items img {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 /* About END */
 
@@ -1426,8 +1428,7 @@ a.ico_twitter:hover{
     margin: 0;
     margin-bottom: 3em;
 }
-.roastlevel{
-}
+
 .roastlevel .line{
     background-color: #666;
     height: 6px;
@@ -1929,7 +1930,6 @@ a.ico_twitter:hover{
 }
 
 /* Tooltip */
-
 .level__wrap .tooltip {
     background: #FFF;
     top: 90%;
@@ -1961,7 +1961,6 @@ a.ico_twitter:hover{
     -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
 }
-
 .level__wrap .tooltip:before {
     top: -10px;
     content: " ";
@@ -1974,7 +1973,6 @@ a.ico_twitter:hover{
     border-right: solid transparent 10px;
     border-bottom: solid #FFF 10px;
 }
-
 .level__wrap:hover .tooltip {
     opacity: 1;
     pointer-events: auto;
@@ -1984,7 +1982,6 @@ a.ico_twitter:hover{
     -o-transform: translateY(0px);
     transform: translateY(0px);
 }
-
 /* Shop Coffee END */
 
 /* Merchandise */
@@ -2306,7 +2303,7 @@ a.ico_twitter:hover{
 }
 .session__vdo .vdo__wrap i{
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 44%;
     color: rgba(255, 255, 255, 0.9);
     opacity: .8;
@@ -2415,9 +2412,9 @@ a.ico_twitter:hover{
 
 /* ---------- add style new design ---------- */
 /* HOME header text */
-.section__main__opentxt  h1 {
+.section__main__opentxt h1 {
     font-family: "Oswald";
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .-img-container{
     position: relative;
@@ -2429,7 +2426,7 @@ a.ico_twitter:hover{
 .-img-container .-img-open {
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 150px;
     top: -100px;
     left: 0;
     right: 0;
@@ -2439,7 +2436,7 @@ a.ico_twitter:hover{
 .-img-container .-img-location-open {
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 150px;
     top: -50px;
     left: 0;
     right: 0;
@@ -2457,12 +2454,13 @@ a.ico_twitter:hover{
 }
 
 .-hr-line-home-header {
-    margin-top: 300px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 3rem;
     height:2px;
     width:80%;
-    color:black;
-    background-color:black;
+    color:rgb(112, 112, 112);
+    background-color:rgb(112, 112, 112);
+    border: none;
 }
 
 .-description {
@@ -2482,12 +2480,12 @@ a.ico_twitter:hover{
 .session__about h1{
     text-transform: uppercase;
     font-family: "Oswald";
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 .-description-bold {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    /* font-weight: 500; */
     text-align: justify;
 }
 .about__our_history {
@@ -2502,16 +2500,17 @@ a.ico_twitter:hover{
     margin-bottom: 10rem;
 }
 .-hr-line-about-header{
-    margin-top: 300px;
+    margin-top: 200px;
     height:2px;
     width:80%;
-    color:black;
-    background-color: black;
+    color: rgb(114,114,114);
+    background-color: rgb(114,114,114);
+    border: none;
 }
 .-img-container .-img-about-header{
     position: absolute;
     margin: auto;
-    width: 400px;
+    width: 250px;
     top: -100px;
     left: 0;
     right: 0;
@@ -2539,7 +2538,7 @@ a.ico_twitter:hover{
 .session__baristas h1 {
     /* text-transform: uppercase; */
     font-family: "Oswald";
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 .session__baristas .-header_name h1 {
@@ -2584,13 +2583,13 @@ a.ico_twitter:hover{
 /* intro set */
 .session__coffeeshop .-header-text h1 {
     font-family: "Oswald";
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .session__coffeeshop .-img-container .-img-shop-open {
     position: absolute;
     margin: auto;
-    width: 200px;
+    width: 120px;
     top:-60px;
     left: 0;
     right: 0;
@@ -2600,7 +2599,7 @@ a.ico_twitter:hover{
 .session__coffeeshop .-img-container .-img-shop-brewing {
     position: absolute;
     margin: auto;
-    width: 400px;
+    width: 220px;
     top:-60px;
     left: 0;
     right: 0;
@@ -2609,11 +2608,12 @@ a.ico_twitter:hover{
 }
 
 .-hr-line-shop-header {
-    margin-top: 300px;
+    margin-top: 200px;
     height:2px;
     width:70%;
     color:rgb(112, 112, 112);
     background-color:rgb(112, 112, 112);
+    border: none;
 }
 .coffee__items {
     margin-top: 6rem
@@ -2687,6 +2687,12 @@ a.ico_twitter:hover{
         padding-left: 10px!important;
         margin-bottom: 1rem!important;
     }
+    .session__vdo .vdo__wrap i.-btn-play-size, .session__vdo .vdo__wrap__sm i.-btn-play-size {
+        font-size: 6rem;
+    }
+    .slides{
+        height: 60%;
+    }
 }
 @media (max-width:1024px) and (min-width:601px) {
     .row .col.-set-container {
@@ -2711,13 +2717,6 @@ a.ico_twitter:hover{
     }
 }
 @media (max-width:768px) {
-    .session__coffeeshop .-img-container .-img-shop-open,
-    .-img-open {
-        width: 150px;
-    }
-    .session__coffeeshop .-img-container .-img-shop-brewing {
-        width: 300px;
-    }
     .-detial-warp .-sec-text {
         font-size: 1.3em;
     }
@@ -2730,9 +2729,6 @@ a.ico_twitter:hover{
     .-notice-box .-title {
         width: 180px!important;
         top: -50px!important;
-    }
-    .-img-container .-img-open-course {
-        width: 400px!important;
     }
 }
 @media (min-width:601.99px) {
@@ -2758,6 +2754,15 @@ a.ico_twitter:hover{
         text-align: right;
         padding-top: 0!important;
     }
+    .-hide-list-mobile{
+        display: none;
+    }
+    .brewing__items .-head-item-bold {
+        display: none;
+    }
+    .-pt-3rem {
+        padding-top: 3rem!important;
+    }
 }
 @media only screen and (min-width:1024.99px) {
     .left.-border-left {
@@ -2765,6 +2770,9 @@ a.ico_twitter:hover{
     }
 }
 @media (max-width: 425px){
+    .session__coffeeshop .-img-container .-img-shop-brewing {
+        width: 200px;
+    }
     .session__baristas h1 {
         font-size: 1.8em;
     }
@@ -2785,31 +2793,34 @@ a.ico_twitter:hover{
         font-size: 1.6rem!important;
     }
     .-img-container .-img-about-header {
-        width: 300px;
+        width: 200px;
     }
     .-img-container .-img-open {
-        width: 220px;
+        width: 120px;
     }
     .-img-container .-img-shop-brewing {
         width: 250px;
     }
     .-img-container .-img-location-open {
-        width: 240px;
+        width: 110px;
     }
     .-hr-line-home-header {
-        margin-bottom: 0;
+        margin-bottom: 2rem;
     }
     .-friend-roast8ry img {
         width: 7rem;
     }
     .-img-container .-img-open-course {
-        width: 300px!important;
+        width: 200px!important;
     }
-    
+    .session__vdo .vdo__wrap i {
+        top: 30%;
+        left: 39%;
+    }
 }
 @media (max-width: 375px){
     .session__coffeeshop .-img-container .-img-shop-open {
-        width: 120px;
+        width: 100px;
     }
     .-hr-line-shop-header {
         margin-top: 200px;
@@ -2896,19 +2907,16 @@ a.ico_twitter:hover{
 .brewing__items .-shirt-img{
     width: 100%;
 }
-
 .brewing__items .-head-item-bold {
     font-family: "Oswald";
     font-size: 2.5rem;
     padding-top: 2rem;
     margin-bottom: 7rem;
 }
-
 .-hr-brewing-item {
     /* width: 50%; */
     margin-top: 2em;
 }
-
 /* END Brewing acc */
 
 /* Location container*/
@@ -2924,7 +2932,7 @@ a.ico_twitter:hover{
     margin:0;
 }
 .locations__content__new h3{
-    font-size: 5em;
+    font-size: 3em;
     margin: 0 1em;
     padding: .1em .5em;
     cursor: pointer;
@@ -2973,16 +2981,14 @@ a.ico_twitter:hover{
 }
 
 /* Coffee course */
-.course__items {
-    margin-top: 3rem;
-}
 .course__items img {
     width: 100%;
+    width: 100%;padding-top: 3rem;
 }
 .-img-container .-img-open-course {
     position: absolute;
     margin: auto;
-    width: 600px;
+    width: 300px;
     top: -100px;
     left: 0;
     right: 0;

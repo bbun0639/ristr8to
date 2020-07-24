@@ -13,9 +13,9 @@
         <div class="row">
             <div class="lower__txt col s3 -custom-col">
                 <ul class="header__txt--head">
-                    <li><a href="/ristr8to/about/roast8ry">Roast8ry</a></li>
-                    <li><a href="/ristr8to/about/baristas">Baristas</a></li>
-                    <li><a href="/ristr8to/about/roasters">Roasters</a></li>
+                    <li><a href="roast8ry">Roast8ry</a></li>
+                    <li><a href="baristas">Baristas</a></li>
+                    <li><a href="roasters">Roasters</a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +33,7 @@
         <h1 class="center">ROAST8RY<br>BARISTA<br>TEAM</h1>
     </div>
     <div class="-img-container">
-        <img class="-img-about-header" src="<?php echo base_url('assets/images/about/header_barista_top.jpg'); ?>"/>
+        <img class="-img-about-header" style="padding-top: 10px;" src="<?php echo base_url('assets/images/about/header_barista_top.jpg'); ?>"/>
     </div>
     <hr class="-hr-line-about-header">
     <p class="-description-bold" style="padding:2em;">
@@ -45,7 +45,7 @@
 
 
     <!-- barista 1 -->
-    <div class="center about__our_history">
+    <div class="s12 m12 center">
         <img src="<?php echo base_url('assets/images/baristas/barista0.jpg'); ?>">
     </div>
 
@@ -103,7 +103,7 @@
     <!-- End barista 1 -->
 
     <!-- barista 2 -->
-    <div class="center about__our_history">
+    <div class="s12 m12 center">
         <img src="<?php echo base_url('assets/images/baristas/barista1.jpg'); ?>">
     </div>
 
@@ -146,7 +146,7 @@
     <!-- End barista 2 -->
 
     <!-- barista 3 -->
-    <div class="center about__our_history">
+    <div class="s12 m12 center">
         <img src="<?php echo base_url('assets/images/baristas/barista2.jpg'); ?>">
     </div>
 
@@ -234,6 +234,12 @@
     })
             .setTween("#subnav", 0.5, {top: "60px"}) // trigger a TweenMax.to tween
             .addTo(controller);
+</script>
+
+<script>
+    $("#nav-mobile li").on("click", function () {
+        $(this).find('ul').toggle();
+    });
 </script>
 
 </body>

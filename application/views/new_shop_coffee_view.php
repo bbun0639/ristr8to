@@ -40,53 +40,6 @@
     </div>
 
 
-    <!-- Intro shop -->
-    <div class="col s12 m9 coffee__items">
-        <div class="row">
-            <div class="col s12 m6 center">
-                <img src="../assets/images/coffeeshop/coffee_learning_set.jpg" alt="">
-                </a>
-            </div>
-            <div class="col s12 m6 center">
-                <img src="../assets/images/coffeeshop/coffee_bottle.jpg" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="-detial-warp">
-            <p class="-head-bold bold">SPECIALTY COFFEE SET :&nbsp;</p>
-            <p class="-sec-text">3 bottles of different coffee + coffee & brewing guide book&nbsp;&nbsp;</p>
-            <div class="col d-bl-none">
-                <p class="-head-bold bold">780 THB</p>
-            </div>
-            <div class="container d-lg-none d-md-block" style="margin-right:0;">
-                <p class="-head-bold-mobile bold right">780 THB</p>
-            </div>
-            <div><substr>+</substr></div>
-        </div>
-        <hr>
-    </div>
-    <div class="col s12 m9">
-        <div class="row">
-            <div class="col s12 m3 left -set-container -border-bottom">
-                <h1 class="-head-des">- ROAST8RY SET</h1>
-                <p class="-des-text">: 3 of our blends for 1st time buyer</p>
-            </div>
-            <div class="col s12 m3 left -set-container -border-left -border-left-labtop -border-bottom">
-                <h1 class="-head-des">- SINGLE ORIGIN SET</h1>
-                <p class="-des-text">: for intermidiate coffee drinkers</p>
-            </div>
-            <div class="col s12 m3 left -set-container -border-left -border-bottom">
-                <h1 class="-head-des">- COFFEE PROCESSING SET</h1>
-                <p class="-des-text">: for Baristas / advance coffee drinkers </p>
-            </div>
-            <div class="col s12 m3 left -set-container -border-left -border-left-labtop -border-bottom">
-                <h1 class="-head-des">- SPECIAL SET OF THE MONTH</h1>
-                <p class="-des-text">: advance learning picked by our roasters</p>
-            </div>
-        </div>
-    </div>
-    <!-- End Intro shop -->
-
     <!-- SPECIAL BLEND COFFEE -->
     <div class="-bar-container" id="specialBlend">
         <div class="-bar-text">
@@ -97,16 +50,24 @@
     <div class="col s12 m9 spacial__items">
         <div class="row">
             <div class="col s12 m6 center">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_hot1.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645249/product-645249">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_hot1.png" alt="">
+                </a>
             </div>
             <div class="col s12 m6 center">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_milk2.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645250/product-645250">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_milk2.png" alt="">
+                </a>
             </div>
             <div class="col s12 m6 center">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_filter3.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645247/product-645247">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/blend_filter3.png" alt="">
+                </a>
             </div>
             <div class="col s12 m6 center">
-                <img class="-special-img" src="../assets/images/coffeeshop/blend_non4.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645251/product-645251">
+                    <img class="-special-img" src="../assets/images/coffeeshop/blend_non4.png" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -135,12 +96,20 @@
     <div class="col s12 m9 spacial__items">
         <div class="row">
             <div class="col s12 m6 center">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_colombia1.png" alt="">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_brazil2.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645235/product-645235">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_colombia1.png" alt="">
+                </a>
+                <a href="https://store.roast8ry.com/en/product/645240/product-645240">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_brazil2.png" alt="">
+                </a>
             </div>
             <div class="col s12 m6 center">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_panama3.png" alt="">
-                <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_ethiopia4.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645241/product-645241">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_panama3.png" alt="">
+                </a>
+                <a href="https://store.roast8ry.com/en/product/645243/product-645243">
+                    <img class="-special-img" style="margin-bottom: 5rem;" src="../assets/images/coffeeshop/International_ethiopia4.png" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -155,7 +124,9 @@
     <div class="col s12 m9 spacial__items">
         <div class="row">
             <div class="col s12 m6 center -set-local-container">
-                <img class="-special-img" src="../assets/images/coffeeshop/local_thailand_crop.png">
+                <a href="https://store.roast8ry.com/en/product/645245/product-645245">
+                    <img class="-special-img" src="../assets/images/coffeeshop/local_thailand_crop.png">
+                </a>
             </div>
             <div class="col s12 m6 left -set-local-text -border-left -border-bottom" style="margin-bottom: 5rem;">
                 <h1 style="margin-top:0;">About our local coffee</h1>
@@ -190,7 +161,9 @@
     <div class="col s12 m9 spacial__items">
         <div class="row">
             <div class="col s12 m8 center -set-local-container">
-                <img class="-special-img" src="../assets/images/coffeeshop/award_costa_crop.png">
+                <a href="https://store.roast8ry.com/en/product/645252/product-645252">
+                    <img class="-special-img" src="../assets/images/coffeeshop/award_costa_crop.png">
+                </a>
             </div>
             <div class="col s12 m4 left -set-local-text -border-left -border-bottom" style="margin-bottom: 5rem;">
                 <h1 style="margin-top:0;">Coffee producers</h1>
@@ -209,6 +182,55 @@
         </div>
     </div>
     <!-- End AWARD WINNING COFFEE -->
+
+    <!-- Intro shop -->
+    <div class="col s12 m9 coffee__items">
+        <div class="row">
+            <div class="col s12 m6 center">
+                <a href="https://store.roast8ry.com/en/product/645246/product-645246">
+                    <img src="../assets/images/coffeeshop/coffee_learning_set.jpg" alt="">
+                </a>
+            </div>
+            <div class="col s12 m6 center">
+                <a href="https://store.roast8ry.com/en/product/645246/product-645246">
+                    <img src="../assets/images/coffeeshop/coffee_bottle.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="-detial-warp">
+            <p class="-head-bold bold">SPECIALTY COFFEE SET :&nbsp;</p>
+            <p class="-sec-text">3 bottles of different coffee + coffee & brewing guide book&nbsp;&nbsp;</p>
+            <div class="col d-bl-none">
+                <p class="-head-bold bold">780 THB</p>
+            </div>
+            <?php /* <div class="container d-lg-none d-md-block d-none" style="margin-right:0;">
+                <p class="-head-bold-mobile bold right">780 THB</p>
+            </div>
+            <div><substr>+</substr></div>  */ ?>
+        </div>
+        <hr>
+    </div>
+    <div class="col s12 m9">
+        <div class="row -hide-list-mobile">
+            <div class="col s12 m3 left -set-container -border-bottom">
+                <h1 class="-head-des">- ROAST8RY SET</h1>
+                <p class="-des-text">: 3 of our blends for 1st time buyer</p>
+            </div>
+            <div class="col s12 m3 left -set-container -border-left -border-left-labtop -border-bottom">
+                <h1 class="-head-des">- SINGLE ORIGIN SET</h1>
+                <p class="-des-text">: for intermidiate coffee drinkers</p>
+            </div>
+            <div class="col s12 m3 left -set-container -border-left -border-bottom">
+                <h1 class="-head-des">- COFFEE PROCESSING SET</h1>
+                <p class="-des-text">: for Baristas / advance coffee drinkers </p>
+            </div>
+            <div class="col s12 m3 left -set-container -border-left -border-left-labtop -border-bottom">
+                <h1 class="-head-des">- SPECIAL SET OF THE MONTH</h1>
+                <p class="-des-text">: advance learning picked by our roasters</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Intro shop -->
 
     <!-- ROASTED WITH -->
     <div class="container session__coffeeshop">
@@ -279,6 +301,12 @@
     })
             .setTween("#subnav", 0.5, {top: "60px"}) // trigger a TweenMax.to tween
             .addTo(controller);
+</script>
+
+<script>
+    $("#nav-mobile li").on("click", function () {
+        $(this).find('ul').toggle();
+    });
 </script>
 
 </body>

@@ -35,7 +35,7 @@
             <h1 class="bold no__margin--top">VIDEOS</h1>
         </div>
         <div class="-img-container">
-            <img class="-img-open" style="padding-top:2.5em" src="<?php echo base_url('assets/images/vdo/header_vdo.jpg'); ?>"/>
+            <img class="-img-open" style="padding-top:2em" src="<?php echo base_url('assets/images/vdo/header_vdo.jpg'); ?>"/>
         </div>
         <hr class="-hr-line-home-header">
         <p class="-description-bold">
@@ -106,6 +106,7 @@
     </div>
 
     <!-- head WORLD CHAMPIONSHIPS -->
+    <div id="championships""></div>
     <div class="section__main__opentxt center">
         <div class="-header-text">
             <h1 class="bold no__margin--bottom">WORLD</h1>

@@ -39,11 +39,11 @@
         <hr class="-hr-line-home-header" style="width: 100%;">
     </div>
 
-    <p class="-description-bold" style="padding-top:2em;">
+    <?php /*<p class="-description-bold">
         Each locations under our “Roast8ry coffee project” will have its own concept and menus but all are united under
         the main focus for coffee from our experience in World coffee championships, specialty coffee culture, and coffee
         farms around the world we have been to. We hope you will enjoy our passion and our hard work for each of them.
-    </p>
+    </p> */ ?>
 </div>
 <div class="locations__wrap hide-on-small-only container  id="target_down"">
     <div class="row session__locations">
@@ -80,7 +80,7 @@
 
 <div class="locations__wrap hide-on-med-and-up">
     <div class="col  s12">
-        <center> <h2>LOCATIONS IN CHIANGMAI</h2> </center>
+        <center> <h2 style="font-weight: 500; text-decoration: underline;">CHIANGMAI</h2> </center>
     </div>
     <div class="col s12">
         <ul>
@@ -97,7 +97,7 @@
         </ul>
     </div>
     <div class="col s12">
-        <center> <h2 style="margin-top:5rem;">LOCATIONS IN BANGKOK</h2> </center>
+        <center> <h2 style="margin-top:5rem; font-weight: 500; text-decoration: underline;">BANGKOK</h2> </center>
     </div>
     <div class="col s12">
         <ul>

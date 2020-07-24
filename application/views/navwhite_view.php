@@ -8,17 +8,18 @@
             <ul class="hide-on-med-and-down nav__center right">
                 <!-- <li><a class="dropdown-button" href="#!" data-activates="dropdown_white_news">NEWS<i class="material-icons right tiny">arrow_drop_down</i></a></li> -->
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown_white_shop">SHOP<i class="material-icons right tiny">arrow_drop_down</i></a></li>
+                <li><a href="<?php echo site_url('shop/coffee_courses'); ?>">COURSES</a></li>
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown_white_about">ABOUT<i class="material-icons right tiny">arrow_drop_down</i></a></li>
                 <li><a href="<?php echo site_url('video/roast8ry'); ?>">VIDEO</a></li>
                 <li><a href="<?php echo site_url('locations'); ?>">LOCATIONS</a></li>
-                <li><a href="<?php echo site_url('contact'); ?>">CONTACT<i class="material-icons right tiny">arrow_drop_down</i></a></li>
+                <li><a href="<?php echo site_url('contact'); ?>">CONTACT</a></li>
                 <!-- <li><a href="<?php echo site_url('journey'); ?>">JOURNAL</a></li> -->
 
                 <li>
                     <div class="menu__icon">
-                        <a href="https://store.ristr8to.com" data-activates="slide-out" id="btn-cart" class="ico_cart_black"></a>
-                        <a href="https://www.facebook.com/ristr8to/" target="_blank" class="ico_fb_black"></a>
-                        <a href="https://www.instagram.com/ristr8to/" target="_blank" class="ico_ig_black"></a>
+                        <!-- <a href="https://store.roast8ry.com/" data-activates="slide-out" id="btn-cart" class="ico_cart_black"></a> -->
+                        <a href="https://www.facebook.com/roast8ry/" target="_blank" class="ico_fb_black"></a>
+                        <a href="https://www.instagram.com/roast8ry_/" target="_blank" class="ico_ig_black"></a>
                         <a href="#" class="button-collapse"><i class="material-icons">menu</i></a>
                     </div>
                 </li>
@@ -40,12 +41,14 @@
                 <li><a href="#">SHOP</a>
                     <ul style="margin-left: 20px;">
                         <li><a href="<?php echo site_url('shop/coffee-shop'); ?>">- Coffee</a></li>
-                        <li><a href="<?php echo site_url('shop/coffee-courses'); ?>">- Courses</a></li>
+                        <li><a href="<?php echo site_url('shop/brewing-accessories'); ?>">- Brewing</a></li>
+                        <?php /* <li><a href="<?php echo site_url('shop/coffee-courses'); ?>">- Courses</a></li>
                         <li><a href="<?php echo site_url('shop/brewing-accessories'); ?>">- Brewing</a></li>
                         <!-- <li><a href="https://store.ristr8to.com">- Coffee</a></li> -->
-                        <li><a href="https://store.roast8ry.com">- Merchandise</a></li>
+                        <li><a href="https://store.roast8ry.com">- Merchandise</a></li> */ ?>
                     </ul>
                 </li>
+                <li><a href="<?php echo site_url('shop/coffee_courses'); ?>">COURSES</a></li>
                 <li><a href="#">ABOUT</a>
                     <ul style="margin-left: 20px;">
                         <li><a href="<?php echo site_url('about/roast8ry'); ?>">- Roast8ry</a></li>
@@ -55,11 +58,11 @@
                         <!-- <li><a href="<?php echo site_url('about/awards'); ?>">- Awards</a></li> -->
                     </ul>
                 </li>
-                <li><a href="#">VIDEO</a>
-                    <ul style="margin-left: 20px;">
+                <li><a href="<?php echo site_url('video/roast8ry'); ?>">VIDEO</a>
+                    <?php /* <ul style="margin-left: 20px;">
                         <li><a href="<?php echo site_url('video/lattearts'); ?>">Latte Arts</a></li>
                         <li><a href="<?php echo site_url('video/ristr8to'); ?>">Roast8ry</a></li>
-                    </ul>
+                    </ul> */ ?>
                 </li>
                 <li><a href="<?php echo site_url('locations'); ?>">LOCATIONS</a></li>
                 <li><a href="<?php echo site_url('contact'); ?>">CONTACT</a></li>
@@ -74,7 +77,7 @@
                             <img src="<?php echo base_url('assets/images/iconf_social_line.png'); ?>">
                             <img src="<?php echo base_url('assets/images/iconf_social_tripadvisor.png'); ?>">
                         </div>
-                        <div class="row center footer__social--copyright">Copyright © 2017 RISTR8TO</div>
+                        <div class="row center footer__social--copyright">Copyright © 2020 ROAST8RY</div>
                     </div></li>
             </ul>
 
@@ -92,9 +95,9 @@
 <!-- Subnav Shop -->
 <ul id="dropdown_white_shop" class="dropdown-content">
     <li><a href="<?php echo site_url('shop/coffee-shop'); ?>">Coffee</a></li>
-    <li><a href="<?php echo site_url('shop/coffee-courses'); ?>">Courses</a></li>
+    <?php /*<li><a href="<?php echo site_url('shop/coffee-courses'); ?>">Courses</a></li> */ ?>
     <li><a href="<?php echo site_url('shop/brewing-accessories'); ?>">Brewing</a></li>
-    <li><a href="https://store.roast8ry.com">Merchandise</a></li>
+    <?php /*<li><a href="https://store.roast8ry.com">Merchandise</a></li> */ ?>
 </ul>
 
 <!-- Subnav About -->
@@ -106,10 +109,10 @@
 </ul>
 
 <!-- Subnav VDO -->
-<ul id="dropdown_white_vdo" class="dropdown-content">
-    <li><a href="<?php echo site_url('video/lattearts'); ?>">Latte Arts</a></li>
+<!-- <ul id="dropdown_white_vdo" class="dropdown-content">
+    <li><a href="<?php echo site_url('video/roast8ry'); ?>">Latte Arts</a></li>
     <li><a href="<?php echo site_url('video/ristr8to'); ?>">Ristr8to</a></li>
-</ul>
+</ul> -->
 
 <!-- Subnav Contact -->
 <ul id="dropdown_contact" class="dropdown-content">

@@ -11,7 +11,9 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="<?php echo base_url('assets/images/contact_us/contact-top.png'); ?>"></div>
+    <div class="parallax">
+        <img src="<?php echo base_url('assets/images/contact_us/contact-top.png'); ?>">
+    </div>
 </div>
 <!-- Header END -->
 
@@ -33,12 +35,12 @@
             <div class="col s12 m7 center">
                 <img src="<?php echo base_url('assets/images/r8-circle.png'); ?>" style="width: 200px; padding-bottom:3rem">
             </div>
-            <div class="col s12 m5 ">
-                <p><b>Address :</b> 15/3  Nimmanhaemin Road, Suthep, Chiang Mai 50200</p>
-                <p><b>Telephone :</b> 053 215 278</p>
-                <p><b>Email :</b> <a href="mailto://info@ristr8to.com">info@Ristr8to.Com</a></p>
-                <p><b>Website :</b> <a href="https://ristr8to.com<">https://Ristr8to.Com</a></p>
-                <p><b>Store :</b> <a href="https://store.ristr8to.com<">https://Store.Ristr8to.Com</a></p>
+            <div class="col s12 m4 ">
+                <p><b>Head office :</b> 2nd floor Roast8ry LAB, 14 Nimmanhaemin rd, Suthep, Chiang Mai, Thailand</p>
+                <p><b>Telephone :</b> 085 530 5360</p>
+                <p><b>Email :</b> <a href="mailto://info@roast8ry.com">info@roast8ry.com</a></p>
+                <p><b>Website :</b> <a href="https://roast8ry.com">https://roast8ry.com</a></p>
+                <p><b>Store :</b> <a href="https://store.roast8ry.com">https://store.roast8ry.com</a></p>
             </div>
         </div>
 

@@ -22,11 +22,14 @@
 <div class="row session__locations session__locations__branch">
     <div class="col s12 m4 locations__branch__content">
         <h2><?php echo $row['loc_name']; ?></h2>
-        <div class="row branch__content">
-            <div class="col s12 small">
-                <p><b>address : </b><?php echo $row['loc_address']; ?></p>
-                <p><b>roasting hours : </b><?php echo $row['loc_openhr']; ?></p>
-            </div>
+        
+            <div class="row branch__content">
+                <div class="col s12 small">
+                    <a  href="https://goo.gl/maps/1nuy1mrECkWPFzeF9">
+                        <p><b>address : </b><?php echo $row['loc_address']; ?></p>
+                        <p><b>brewing hours : </b><?php echo $row['loc_openhr']; ?></p>
+                    </a>
+                </div>
         </div>
         <div class="row branch__content">
             <div class="col s6">

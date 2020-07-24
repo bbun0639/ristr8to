@@ -55,7 +55,9 @@
         <div class="row">
             <div>
             <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/shop-acc-book1.png">
+                <a href="https://store.roast8ry.com/en/product/645253/product-645253">
+                    <img class="-items-img"  src="../assets/images/accessories/shop-acc-book1.png">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -70,8 +72,10 @@
             </div>
             </div>
 
-            <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/shop-acc-book2.png">
+            <div class="col s12 m3 center -pt-3rem">
+                <a href="https://store.roast8ry.com/en/product/645254/product-645254">
+                    <img class="-items-img"  src="../assets/images/accessories/shop-acc-book2.png">
+                </a>
             </div>
             <div class="col s12 m3 left">
             <p class="-head-des">
@@ -109,7 +113,9 @@
         <div class="row">
             <div>
             <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/glass_skull.png" alt="">
+                <a href="https://store.roast8ry.com/en/product/645255/product-645255">
+                    <img class="-items-img"  src="../assets/images/accessories/glass_skull.png" alt="">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -125,8 +131,10 @@
             </div>
             </div>
 
-            <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/glass_shake.png" alt="">
+            <div class="col s12 m3 center -pt-3rem">
+                <a href="https://store.roast8ry.com/en/product/645258/product-645258">
+                    <img class="-items-img"  src="../assets/images/accessories/glass_shake.png" alt="">
+                </a>
             </div>
             <div class="col s12 m3 left">
             <p class="-head-des">
@@ -143,8 +151,10 @@
         </div>
 
         <div class="row">
-            <div class="col s12 m3 center">
-                <img class="-items-img" src="../assets/images/accessories/cup_roast8ry.png" alt="">
+            <div class="col s12 m3 center -pt-3rem">
+                <a href="https://store.roast8ry.com/en/product/645257/product-645257">
+                    <img class="-items-img" src="../assets/images/accessories/cup_roast8ry.png" alt="">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -159,8 +169,10 @@
                 </h1>
             </div>
 
-            <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/cup_white.png" alt="">
+            <div class="col s12 m3 center -pt-3rem">
+                <a href="https://store.roast8ry.com/en/product/645256/product-645256">
+                    <img class="-items-img"  src="../assets/images/accessories/cup_white.png" alt="">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -177,8 +189,10 @@
         </div>
 
         <div class="row">
-            <div class="col s12 m3 center">
-                <img class="-items-img"  src="../assets/images/accessories/roast8ry_thermos.png" alt="">
+            <div class="col s12 m3 center -pt-3rem">
+                <a href="https://store.roast8ry.com/en/product/645259/product-645259">
+                    <img class="-items-img"  src="../assets/images/accessories/roast8ry_thermos.png" alt="">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -214,7 +228,9 @@
         <div class="row">
             <div>
             <div class="col s12 m3 center">
-                <img class="-shirt-img"  src="../assets/images/accessories/t-shirt-1.png">
+                <a href="">
+                    <img class="-shirt-img"  src="../assets/images/accessories/t-shirt-1.png">
+                </a>
             </div>
             <div class="col s12 m3 left">
                 <p class="-head-des">
@@ -282,6 +298,12 @@
     })
             .setTween("#subnav", 0.5, {top: "60px"}) // trigger a TweenMax.to tween
             .addTo(controller);
+</script>
+
+<script>
+    $("#nav-mobile li").on("click", function () {
+        $(this).find('ul').toggle();
+    });
 </script>
 
 </body>

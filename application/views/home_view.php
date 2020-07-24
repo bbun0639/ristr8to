@@ -64,7 +64,7 @@
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openNav()" class="vdo__open"><img src="<?php echo base_url('assets/images/clip.png'); ?>" /></span>
+<!-- <span onclick="openNav()" class="vdo__open"><img src="<?php echo base_url('assets/images/clip.png'); ?>" /></span> -->
 <!-- VDO side menu END-->
 
 <!-- Main text -->
@@ -164,16 +164,17 @@
             <h1 class="bold no__margin--bottom">locations of<br>ROAST8RY COFFEE</h1>
         </div>
         <div class="-img-container">
-            <img class="-img-open" src="<?php echo base_url('assets/images/home/bottom_home-1.jpg'); ?>" style="padding-top:3.5em"/>
+            <img class="-img-open" src="<?php echo base_url('assets/images/home/bottom_home-1.jpg'); ?>" style="padding-top:2em"/>
         </div>
         <hr class="-hr-line-home-header">
-        <p class="-description-bold">
+        <?php
+        /*<p class="-description-bold">
         Our founder is World Latte art champion Arnon Thitiprasert who have designed most of concepts, drinks, and
         products behind every single cafe of ours. Each locations under our “Roast8ry coffee project” will have its own
         concept and menus but all are united under the main focus for coffee from our experience in World coffee
         championships, specialty coffee culture, and all coffee farms around the world we have been to.
         We hope you will enjoy our passion and our hard work for each of them.
-        </p>
+        </p>*/?>
     </div>
 </div>
 <!-- End Bottom text -->
